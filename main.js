@@ -13,10 +13,11 @@
             // Write
             domPrefixName.append(prefix_name + " ")
             domPrefixCountry.classList.add("flag-icon")
-            domPrefixCountry.classList.add("flag-icon-" + r.prefixes[prefix_name].region)
             if(r.prefixes[prefix_name].type == "anycast"){
+                domPrefixCountry.classList.add("flag-icon-un")
                 domPrefixProvider.append("Anycasted Network")
             }else{
+                domPrefixCountry.classList.add("flag-icon-" + r.prefixes[prefix_name].region)
                 domPrefixProvider.append(r.prefixes[prefix_name].provider)
             }
             // Render

@@ -21,7 +21,7 @@
       }
     }
   },
-  "exchange": {
+  "exchanges": {
     "LL-IX": {
       "region": "eu",
       "ipv4": "5.101.92.138",

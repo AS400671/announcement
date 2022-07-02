@@ -1,5 +1,5 @@
 (() => {
-    fetch("https://raw.githubusercontent.com/AS400671/prefixes/main/announce.json")
+    fetch("https://cdn.jsdelivr.net/gh/AS400671/prefixes/announce.json")
     .then(r=>r.json())
     .then(r=>{
         let domPrefixList = document.createElement("ul")

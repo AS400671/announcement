@@ -1,24 +1,22 @@
 {
   "prefixes": {
-    "2602:fb7e::40+": {
-      "2602:fb7e::1/48": {
-        "type": "anycast"
-      },
-      "2602:fb7e:10::1/48": {
-        "type": "unicast",
-        "provider": "Constant LLC",
-        "region": "us"
-      },
-      "2602:fb7e:20::1/48": {
-        "type": "unicast",
-        "provider": "FranTech Solutions",
-        "region": "us"
-      },
-      "2602:fb7e:30::1/48": {
-        "type": "unicast",
-        "provider": "VIRTUA SYSTEMS SAS",
-        "region": "fr"
-      }
+    "2602:fb7e::1/48": {
+      "type": "anycast"
+    },
+    "2602:fb7e:10::1/48": {
+      "type": "unicast",
+      "provider": "Constant LLC",
+      "region": "us"
+    },
+    "2602:fb7e:20::1/48": {
+      "type": "unicast",
+      "provider": "FranTech Solutions",
+      "region": "us"
+    },
+    "2602:fb7e:30::1/48": {
+      "type": "unicast",
+      "provider": "VIRTUA SYSTEMS SAS",
+      "region": "fr"
     }
   },
   "exchanges": {

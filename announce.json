@@ -27,7 +27,7 @@
       "type": "unicast",
       "provider": "The Constant Company LLC",
       "region": "kr"
-    },
+    }
   },
   "exchanges": {
     "LL-IX": {

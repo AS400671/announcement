@@ -5,7 +5,7 @@
     },
     "2602:fb7e:10::1/48": {
       "type": "unicast",
-      "provider": "Constant LLC",
+      "provider": "The Constant Company LLC",
       "region": "us"
     },
     "2602:fb7e:20::1/48": {
@@ -17,7 +17,17 @@
       "type": "unicast",
       "provider": "VIRTUA SYSTEMS SAS",
       "region": "fr"
-    }
+    },
+    "2602:fb7e:40::1/48": {
+      "type": "unicast",
+      "provider": "VIRTUA SYSTEMS SAS",
+      "region": "us"
+    },
+    "2602:fb7e:50::1/48": {
+      "type": "unicast",
+      "provider": "The Constant Company LLC",
+      "region": "kr"
+    },
   },
   "exchanges": {
     "LL-IX": {

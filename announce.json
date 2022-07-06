@@ -3,27 +3,22 @@
     "2602:fb7e::1/48": {
       "type": "anycast"
     },
-    "2602:fb7e:10::1/48": {
-      "type": "unicast",
-      "provider": "The Constant Company LLC",
-      "region": "us"
-    },
-    "2602:fb7e:20::1/48": {
+    "2602:fb7e:a::1/48": {
       "type": "unicast",
       "provider": "FranTech Solutions",
       "region": "us"
     },
-    "2602:fb7e:30::1/48": {
-      "type": "unicast",
-      "provider": "VIRTUA SYSTEMS SAS",
-      "region": "fr"
-    },
-    "2602:fb7e:40::1/48": {
+    "2602:fb7e:b::1/48": {
       "type": "unicast",
       "provider": "VIRTUA SYSTEMS SAS",
       "region": "us"
     },
-    "2602:fb7e:50::1/48": {
+    "2602:fb7e:c::1/48": {
+      "type": "unicast",
+      "provider": "VIRTUA SYSTEMS SAS",
+      "region": "fr"
+    },
+    "2602:fb7e:d::1/48": {
       "type": "unicast",
       "provider": "The Constant Company LLC",
       "region": "kr"
@@ -38,10 +33,6 @@
     "4b42 Internet Exchange Point": {
       "region": "ch",
       "ipv6": "2001:7f8:d0::6:1d1f:1"
-    },
-    "BGP.Exchange": {
-      "region": "us",
-      "ipv6": "2407:c280:ee:49::40:671"
     }
   }
 }

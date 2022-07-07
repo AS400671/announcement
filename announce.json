@@ -10,7 +10,7 @@
     },
     "2602:fb7e:b::1/48": {
       "type": "unicast",
-      "provider": "VIRTUA SYSTEMS SAS",
+      "provider": "VIRTUASYS LLC",
       "region": "us"
     },
     "2602:fb7e:c::1/48": {

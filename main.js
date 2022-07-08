@@ -1,5 +1,5 @@
 (() => {
-    fetch("https://cdn.jsdelivr.net/gh/AS400671/announcement/announce.json")
+    fetch(`https://cdn.jsdelivr.net/gh/AS400671/announcement/announce.json?${+new Date()}`)
     .then(r=>r.json())
     .then(r=>{
         let domPrefixList = document.createElement("ul")

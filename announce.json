@@ -33,6 +33,14 @@
     "4b42 Internet Exchange Point": {
       "region": "ch",
       "ipv6": "2001:7f8:d0::6:1d1f:1"
+    },
+    "BGP.Exchange - Fremont": {
+      "region": "us",
+      "ipv6": "2407:c280:ee:22::40:671"
+    },
+    "BGP.Exchange - Seoul": {
+      "region": "kr",
+      "ipv6": "2407:c280:ee:8::40:671"
     }
   }
 }
